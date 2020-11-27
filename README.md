@@ -34,19 +34,19 @@ everything for consistency, then list or extract the archive.
 
 Command Help
 ------------
-usage: dos5_restore.py [-h] [-d] [-l] [-c] [-t] [-w WILDCARD] [infile]
+    usage: dos5_restore.py [-h] [-d] [-l] [-c] [-t] [-w WILDCARD] [infile]
 
-positional arguments:
-  infile                name of control file to process, otherwise use all CONTROL.### files
+    positional arguments:
+      infile                name of control file to process, otherwise use all CONTROL.### files
 
-optional arguments:
-  -h, --help            show this help message and exit
-  -d, --debug           print out detailed status as the files are processed
-  -l, --list            only list the files contained in the archive
-  -c, --clobber         allow extracted files to overwrite existing files
-  -t, --timestamp       preserve the timestamp on the extacted files
-  -w WILDCARD, --wildcard WILDCARD
-                        a file name or pattern of which files to extract
+    optional arguments:
+      -h, --help            show this help message and exit
+      -d, --debug           print out detailed status as the files are processed
+      -l, --list            only list the files contained in the archive
+      -c, --clobber         allow extracted files to overwrite existing files
+      -t, --timestamp       preserve the timestamp on the extacted files
+      -w WILDCARD, --wildcard WILDCARD
+                            a file name or pattern of which files to extract
 
 License
 --------------
