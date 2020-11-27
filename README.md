@@ -48,6 +48,10 @@ Command Help
       -w WILDCARD, --wildcard WILDCARD
                             a file name or pattern of which files to extract
 
+The wildcard patterns are typical DOS file patterns:
+* asterisk means zero or more of any characters
+* question mark means one of any character
+
 License
 --------------
 This code is released under the [MIT License](https://mit-license.org/)
