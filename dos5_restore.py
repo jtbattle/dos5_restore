@@ -131,7 +131,6 @@ class ControlDirectory:
         # control.012:     CF020000      719
         # control.013:     FFFFFFFF       -1
         # I don't see a pattern or understand what it might mean.
-        # woudl
         # assert blk_unknown == b'\xff\xff\xff\xff'
 
         # export fields
